@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 // Credenciales para conexion a Mongo Atlas
 //const URI = "mongodb+srv://tpv-la-nena:74CDFTgpyW5783eh@cluster0.dsbmu.mongodb.net/TPV-LA-NENA"; // tpv en produccion
 
-const URI = "mongodb+srv://tpv-la-nena:74CDFTgpyW5783eh@cluster0.dsbmu.mongodb.net/TPV-LA-NENA-PRUEBAS"; // tpv test
+const URI = "mongodb+srv://blueCity:fLYVtvFhwsp2u6Ha@cluster0.dsbmu.mongodb.net/TPV-BLUE-CITY"; // tpv test
 
 mongoose.connect(URI)
     .then(db => console.log("DB is connected"))
